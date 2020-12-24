@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Map">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MapWinForms">
    <children>
       <AnchorPane layoutX="-5.0" layoutY="-100.0" prefHeight="200.0" prefWidth="663.0" style="-fx-background-color: #596699;">
          <children>
@@ -24,7 +24,7 @@
       </Button>
       <ImageView fx:id="image" fitHeight="430.0" fitWidth="420.0" layoutX="190.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../assets/1.png" />
+            <Image url="@../assets/1.png"/>
          </image>
       </ImageView>
       <Button fx:id="map2" layoutX="35.0" layoutY="174.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Карта 2">

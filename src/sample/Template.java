@@ -10,6 +10,7 @@ import java.io.IOException;
 
 public class Template {
 
+    // запускает новое окно и закрывает старое
     public void window (String string, Node node){
         node.getScene().getWindow().hide();
         String link = String.format("Fxml/%s.fxml",string);
@@ -23,7 +24,7 @@ public class Template {
             e.printStackTrace();
         }
     }
-
+    // открывает окно с ошибкой
     public void error(){
         try {
             Parent root = FXMLLoader.load(getClass().getResource("Fxml/error.fxml"));
@@ -36,6 +37,8 @@ public class Template {
             e.printStackTrace();
         }
     }
+
+    // меняет стиль курсора при наведении мыши на кнопку
     public void Cursor(Node node){
         node.setOnMouseEntered(event -> {node.setCursor(Cursor.HAND);});
         node.setOnMouseExited(event -> {node.setCursor(Cursor.DEFAULT);});

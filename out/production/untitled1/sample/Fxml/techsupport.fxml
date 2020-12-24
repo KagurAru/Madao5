@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<AnchorPane prefHeight="417.0" prefWidth="612.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Techsupport">
+<AnchorPane prefHeight="417.0" prefWidth="612.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TechsupportWinForms">
    <children>
       <TextArea fx:id="Text" layoutX="53.0" layoutY="118.0" prefHeight="200.0" prefWidth="506.0" />
       <AnchorPane layoutY="-116.0" prefHeight="200.0" prefWidth="612.0" style="-fx-background-color: #596699;">
