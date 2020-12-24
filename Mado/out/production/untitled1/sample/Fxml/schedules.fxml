@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="639.0" prefWidth="323.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SchedulesWinForms">
+   <children>
+      <AnchorPane prefHeight="101.0" prefWidth="323.0" style="-fx-background-color: #596699;">
+         <children>
+            <Text layoutX="44.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Расписание" textAlignment="CENTER" wrappingWidth="235.0">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+         </children></AnchorPane>
+      <ListView fx:id="List" layoutX="24.0" layoutY="115.0" prefHeight="411.0" prefWidth="276.0" style="visibility: #669900;" />
+      <Button fx:id="add" layoutX="44.0" layoutY="558.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Добавить">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="update" layoutX="126.0" layoutY="558.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Изменить">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="delete" layoutX="209.0" layoutY="558.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Удалить">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="cleat" layoutX="138.0" layoutY="588.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Назад">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextField fx:id="Text" layoutX="24.0" layoutY="533.0" prefHeight="25.0" prefWidth="276.0" />
+   </children>
+</AnchorPane>

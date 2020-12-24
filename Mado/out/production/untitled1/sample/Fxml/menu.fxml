@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuWinForms">
+   <children>
+      <AnchorPane prefHeight="87.0" prefWidth="663.0" style="-fx-background-color: #596699;">
+         <children>
+            <Text layoutX="264.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Меню">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <ListView fx:id="ListBreakfast" layoutX="22.0" layoutY="137.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="Back" layoutX="295.0" layoutY="347.0" mnemonicParsing="false" style="-fx-background-color: 0;" text="Назад">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <ListView fx:id="ListDinner" layoutX="442.0" layoutY="137.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="ListLunch" layoutX="232.0" layoutY="137.0" prefHeight="200.0" prefWidth="200.0" />
+      <Text layoutX="90.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Завтрак">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="310.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Обед">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="520.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ужин">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
